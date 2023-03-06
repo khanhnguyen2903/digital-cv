@@ -1,0 +1,25 @@
+@media only screen and (min-width: 769px) {
+  #nav-bar .container {
+    width: 800px;
+  }
+
+  .nav-bar-image {
+    width: 15%;
+    height: 150px;
+    background-image: url(../images/anh_hoc_vien.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    margin: auto;
+    transform: translate(-50%, 0);
+    border: 5px solid #fff;
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+  .pl-laptop {
+    padding-left: 160px;
+  }
+}

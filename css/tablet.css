@@ -1,0 +1,125 @@
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  section .container {
+    padding: 0;
+  }
+  /* Phần banner */
+  #banner {
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  /* Phần nav */
+  #nav-bar .container {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  #nav-bar a {
+    border-left: 1px solid #e9ecef;
+    padding: 15px 0;
+  }
+
+  #nav-bar a:last-child {
+    border-right: 1px solid #e9ecef;
+  }
+
+  .nav-bar-image {
+    border-left: 1px solid #e9ecef;
+    width: 10%;
+  }
+
+  /* Phần mục tiêu nghề nghiệp */
+  #target {
+    padding-bottom: 20px;
+  }
+
+  /* Phần Kinh nghiệm */
+  .kinh-nghiem,
+  .hoc-van,
+  .hoat-dong,
+  .so-thich,
+  .ngon-ngu,
+  .ky-nang {
+    padding-left: 30px 0 30px 10px;
+  }
+
+  /* Phần Sở thích */
+  .hobby-all {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .wd {
+    width: 61px;
+  }
+
+  /* Phần chứng chỉ giải thưởng */
+  #certificate {
+    margin-top: 30px;
+  }
+
+  #certificate .container {
+    padding-top: 30px;
+  }
+
+  #certificate .col-sm-6 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .certificate-item {
+    grid-template-columns: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .certificate-item img {
+    width: 100%;
+    height: auto;
+  }
+
+  .certificate-title {
+    margin-top: 10px;
+  }
+
+  .certificate-title h2 {
+    width: 250px;
+    line-height: 1.6;
+  }
+
+  /* Phần Dự án */
+  #project {
+    margin-top: 30px;
+  }
+
+  .project-info {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px 3px 5px 2px;
+  }
+
+  .year {
+    grid-column: 1 / 2;
+  }
+
+  .place {
+    text-align: start !important;
+  }
+  .job,
+  .place {
+    grid-column: 2 / -1;
+  }
+
+  th {
+    width: 50px;
+  }
+
+  /* Phần Footer */
+  #footer {
+    margin-top: 30px;
+  }
+
+  #footer .container {
+    padding: 30px 0;
+  }
+}
